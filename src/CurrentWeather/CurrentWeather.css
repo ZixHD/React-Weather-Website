@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+.main-container{
+   
+}
+
+.current-weather{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.data-container{
+    border: 3px lightgray solid;
+    width: 150%;
+    height: 40%;
+    border-radius: 10%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-left: 5%
+   
+  
+}
+
+
+.temp{
+    display: flex;
+}
+
+.upper{
+    border-bottom: 10px solid rgb(241, 241, 241);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.data{
+    padding: 5%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    
+}
+ 
+
+.date{
+    display: flex;
+}
+.date img{
+    width: 5%;
+    height: 5%;
+    margin-top: 5%;
+    padding: 1%;
+    padding-right: 2%;
+}
+
+.location{
+    display: flex;
+}
+
+.location img{
+    width: 5%;
+    height: 5%;
+    margin-top: 5%;
+    padding: 1%;
+    padding-right: 2%;
+}
+
+.temp img{
+    padding-left: 45%;
+    width: 100%;
+}
+
+.forecast-container{
+    border: 3px lightgray solid;
+    width: 150%;
+    border-radius: 10%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+.forecast-data{
+    text-align: left;
+    padding: 5%;
+}
+
+.forecast-item{
+    display: flex;
+    justify-content: left;
+    padding-bottom: 5%;
+}
+
+.forecast-item img{
+    padding-right: 10%;
+}
+
+.forecast-item p{
+    padding-right: 10%;
+    
+}
+
+
+.right{
+    width:100%;
+    /* height: 60%; */
+}
+
+.right h1{
+    text-align: left;
+    margin-left: 10%
+}
+
+.right-container{
+    display: flex;
+    margin-left: 5%;
+    width: 100%;
+
+ 
+
+}
+
+.wind-container{
+    border: 3px lightgray solid;
+    border-radius: 5%;
+    margin-left: 5%;
+    width:50%;
+    /* height: 60%; */
+   
+}
+.wind-data{
+    padding:5%;
+    padding-top:1%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+
+    
+    
+}
+.wind-items0{
+    padding: 2%;
+    padding-left: 5%;
+}
+
+.aqi-container{
+    margin-left: 70%;
+   
+    
+    
+}
+
+.wind-icon{
+   margin: auto;
+   padding-left: 4%;
+   
+}
+
+.wind-items0{
+    display: flex;
+
+}
+
+.wind-items1{
+    padding-top: 10%;
+}
+
+.values{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.sun-container{
+    border-radius: 5%;
+    border: 3px lightgray solid;
+    margin-left:4%;
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sun-header{
+   text-align: left;
+   padding-left:5%;
+
+}
+
+.sun-row{
+    display: flex;
+    margin-bottom: 50%;
+
+}
+.sun-row img{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+.bottom-right-container0{
+    margin-left: 10%;
+    display: flex;
+    width: 100%;
+   
+    
+}
+
+.bottom-right-container1 {
+    display: flex;
+    width: 100%;
+
+
+}
+
+.humid-feel-container {
+    width: 50%;
+
+}
+
+.parameter-data{
+    border: 3px lightgray solid;
+    border-radius: 10%;
+    text-align: left;
+    margin-top: 5%;
+    padding-left:5%;
+    
+}
+
+.parameter-data-single{
+    text-align: left;
+    padding-left: 5%;
+    
+}
+
+.pressure-container{
+    border: 3px lightgray solid;
+    border-radius: 10%;
+    width: 50%;
+    height: 44%;
+    margin-top:2.5%;
+    margin-left:1%;
+}
+
+
+
+
+.parameter-row{
+    display: flex;
+    margin-bottom: 10%;
+}
+.temp-p{
+    margin-left: 40%;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.parameter-p{
+    margin-left: 40%;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.parameter-row img{
+    margin-top: 5%;
+    width: 48px;
+    height: 48px;
+}
+
+.bottom-containers{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    
+}

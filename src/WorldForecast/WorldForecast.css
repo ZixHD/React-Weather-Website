@@ -1,0 +1,75 @@
+
+.world-forecast{
+    border: 1px solid white;;
+    border-color: white;
+    margin-top: 20px;
+    
+}
+
+.table-country{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+}
+.column1,
+.column2 {
+    list-style-type: none;
+    padding: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    
+}
+
+.table-item {
+    display: grid;
+    grid-template-columns: auto auto 1fr auto;
+    align-items: center;
+    padding: 3%;
+    margin: 3% 0;
+    
+    
+  
+        
+}
+.table-item img {
+    margin-right: 10px;   
+}
+
+.table-item p {
+    justify-content: left;
+    margin: 0 30px;
+}
+
+.button{
+    width: 10rem;
+    height: 3rem;
+    background-color:rgb(14, 21, 43);
+    color: white;
+    border: 1pc;
+}
+
+.weather_map{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+
+.button-map {
+   
+    width: 10rem;
+    height: 3rem;
+    background-color: rgb(14, 21, 43);
+    color: white;
+    border: 1pc;
+    display: block;
+    margin: 20px auto;
+   
+}
+
+

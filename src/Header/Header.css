@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.header-container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-bottom: 1px lightgray solid; 
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 8rem;
+}
+.logo-image{
+    width: 130px;
+    height: 130px;
+}
+.header-items{
+    display: flex;
+    padding-left: auto;
+    margin-top: 3rem;
+    list-style-type: none;
+}
+
+.item{
+    padding-left: 10rem;
+    font-size: 1.5rem;
+    font-style: 3px bold ;
+}
+
+
